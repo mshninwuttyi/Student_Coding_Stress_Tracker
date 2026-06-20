@@ -1,0 +1,17 @@
+{
+  "name": "student-coding-stress-tracker",
+  "version": "1.0.0",
+  "description": "GitHub activity analysis for coding stress detection",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "build": "cd client && npm run build",
+    "start": "cd server && node index.js"
+  },
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
