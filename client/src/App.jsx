@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import RepoSearch from './components/RepoSearch.jsx';
 import Dashboard from './components/Dashboard.jsx';
-
+import React from 'react';
 export default function App() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
