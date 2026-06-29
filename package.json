@@ -12,7 +12,8 @@
     "start": "cd server && node index.js"
   },
   "dependencies": {
-    "concurrently": "^9.1.2"
+    "concurrently": "^9.1.2",
+    "puppeteer": "^25.2.1"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^6.0.3"
